@@ -1,5 +1,5 @@
 {
-  "name": "amazona",
+  "name": "petcart",
   "version": "1.0.0",
   "description": "# Lessons",
   "main": "index.js",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/rohinikhanderay/mern-amazona/issues"
   },
-  "homepage": "https://github.com/rohinikhanderay/mern-amazona#readme"
+  "homepage": "https://github.com/rohinikhanderay/mern-amazona#readme",
+  "dependencies": {
+    "react-icons": "^4.7.1"
+  }
 }

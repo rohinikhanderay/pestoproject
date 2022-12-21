@@ -7,14 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .site-container {
-  min-height: 100vh;
+  min-height: 150vh;
 }
 main {
   flex: 1;
 }
 .btn-primary,
 .btn-outline-primary {
-  background-color: #f0c040;
+  background-color: #8ff040;
   color: #000000;
 }
 .products {
@@ -24,7 +24,8 @@ main {
 }
 
 .rating span {
-  color: #ffc000;
+  /* color: #ffc000; */
+  color:#73cd2a
 }
 
 .product {
@@ -66,7 +67,7 @@ main {
   height: 100%;
   position: absolute;
   left: -300px;
-  background-color: #100901;
+  background-color: #1e1d21;
   transition: 0.5s;
 }
 

@@ -34,6 +34,8 @@ import OrderListScreen from './screens/OrderListScreen';
 import UserListScreen from './screens/UserListScreen';
 import UserEditScreen from './screens/UserEditScreen';
 import MapScreen from './screens/MapScreen';
+import {FaPaw} from 'react-icons/fa'
+
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -83,10 +85,13 @@ function App() {
               >
                 <i className="fas fa-bars"></i>
               </Button>
-
+             
               <LinkContainer to="/">
-                <Navbar.Brand>amazona</Navbar.Brand>
+              
+                <Navbar.Brand>Pet Cart <FaPaw /> </Navbar.Brand>
+                
               </LinkContainer>
+              
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <SearchBox />
@@ -107,6 +112,7 @@ function App() {
                       <LinkContainer to="/orderhistory">
                         <NavDropdown.Item>Order History</NavDropdown.Item>
                       </LinkContainer>
+                     
                       <NavDropdown.Divider />
                       <Link
                         className="dropdown-item"
@@ -266,7 +272,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className="text-center">All rights reserved</div>
+          <h4 className="text-center">All rights reserved</h4>
         </footer>
       </div>
     </BrowserRouter>
