@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rohinikhanderay/mern-amazona.git"
+    "url": "git+https://github.com/rohinikhanderay/project.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rohinikhanderay/mern-amazona/issues"
+    "url": "https://github.com/rohinikhanderay/project/issues"
   },
-  "homepage": "https://github.com/rohinikhanderay/mern-amazona#readme",
+  "homepage": "https://github.com/rohinikhanderay/project#readme",
   "dependencies": {
     "react-icons": "^4.7.1"
   }
