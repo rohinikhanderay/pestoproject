@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rohinikhanderay/project.git"
+    "url": "git+https://github.com/rohinikhanderay/pestoproject.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rohinikhanderay/project/issues"
+    "url": "https://github.com/rohinikhanderay/pestoproject/issues"
   },
-  "homepage": "https://github.com/rohinikhanderay/project#readme",
+  "homepage": "https://github.com/rohinikhanderay/pestoproject#readme",
   "dependencies": {
     "react-icons": "^4.7.1"
   }
